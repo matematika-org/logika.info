@@ -1,0 +1,21 @@
+[Unit]
+Description=logika.info
+
+Requires=docker.service
+After=docker.service
+
+[Service]
+
+Restart=always
+TimeoutStartSec=0
+ExecStartPre=-/usr/bin/docker kill logika.info
+ExecStartPre=-/usr/bin/docker rm logika.info
+ExecStartPre=-/usr/bin/docker pull marley/logika.info:latest
+ExecStart=/bin/sh -c '/usr/bin/docker run --name logika.info   \
+ -p 4019:80                        \
+ marley/logika.info'
+ExecStop=-/usr/bin/docker kill logika.info
+ExecStop=-/usr/bin/docker rm logika.info
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+# Site settings
+title: Логика
+description: Собираем материалы по предмету математическая логика и логика предикатов
+keywords: логика, математика, программирование, робототехника
+
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'https://logika.info' # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
