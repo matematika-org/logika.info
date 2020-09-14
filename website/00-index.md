@@ -17,6 +17,24 @@ permalink: /
 
 <br/>
 
+### Что сейчас по предмету логика можно посмотреть
+
+[МФТИ] Математическая логика
+
+https://openedu.ru/course/mipt/MLTA/
+
+<br/>
+
+[Политех] Математическая логика
+
+https://openedu.ru/course/spbstu/MATLOG/
+
+
+<br/>
+
+Я сам не проверял. Дадеюсь что материалы качественные, интересные и бесплатные.
+
+<br/>
 
 <div align="center">
     <img src="/img/logika.jpg" alt="Marley" title="Marley" />
